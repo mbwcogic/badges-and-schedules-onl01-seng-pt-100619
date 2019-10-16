@@ -5,3 +5,9 @@ end
 def batch_badge_creator(attendees)
   attendees.collect {|name| badge_maker(name) }
 end
+
+def assign_rooms(attendees)
+  attendees.collect.with_index(1) do |attendee, index|
+    "Hello, #{attendee}! you'll be assigned to room #{index}!"
+  end 
+end
