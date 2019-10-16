@@ -11,3 +11,6 @@ def assign_rooms(attendees)
     "Hello, #{attendee}! you'll be assigned to room #{index}!"
   end 
 end
+
+def assign_rooms(attendees)
+end
